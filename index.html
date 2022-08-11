@@ -6,193 +6,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <style>
-        html {
-            scroll-behavior: smooth;
-        }
-
-        * {
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-        }
-
-        body {
-            padding: 5px;
-            margin: 5px;
-            background-color: #F8ECD1;
-
-        }
-
-        header {
-            /* border: 2px solid black; */
-            padding: 20px;
-            background-color: #85586F;
-            color: #F5E8C7;
-            border: 1px;
-        }
-
-        footer {
-            text-align: center;
-            color: #85586F;
-        }
-
-        #container {
-            /* background-color: rgb(141, 141, 141); */
-            margin: auto;
-            overflow: auto;
-        }
-
-        #intro {
-            display: grid;
-            grid-template-columns: 20% 35% 35%;
-            column-gap: 3%;
-        }
-
-        #knowmemore {
-            display: grid;
-            grid-template-columns: 30% 30% 30%;
-            column-gap: 3%;
-            overflow: auto;
-        }
-
-        #pic img {
-            height: 400px;
-            padding-top: 10%;
-            border-radius: 10px;
-            /* border-radius: 50%; */
-        }
-
-        #contact {
-            text-align: center;
-            display: grid;
-            grid-template-columns: auto auto;
-            width: 80%;
-            padding: 5%;
-            align-items: center;
-        }
-
-        #contact img {
-            height: 70px;
-        }
-
-        a {
-            text-decoration: none;
-        }
-
-        a:link {
-            color: black
-        }
-
-        a:visited {
-            color: #85586F;
-            ;
-        }
-
-        a:hover {
-            color: #F8ECD1;
-            /* background-color: #AC7088; */
-        }
-
-        nav {
-            padding: 10px;
-            border-spacing: 10px;
-            text-align: right;
-            background-color: #DEB6AB;
-            text-decoration-color: #AC7088;
-            word-spacing: 10px;
-            /* position: absolute; */
-            overflow: hidden;
-        }
-
-        h2,
-        p,
-        h3,
-        h1,
-        h4 {
-            color: #85586F;
-        }
-
-        /* h1 {
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        } */
-
-        #moveTop {
-            display: flex;
-            align-items: center;
-            text-align: center;
-            text-emphasis: none;
-        }
-
-        #moveTop img {
-            height: 60px;
-
-        }
-
-        #interests img {
-            height: 50px;
-        }
-
-        #interestText {
-            padding-left: 10px;
-        }
-
-        #education {
-            position: relative;
-            min-width: 300px;
-            max-width: 500px;
-            margin: auto;
-            margin: 0 auto;
-        }
-
-        @media(max-width:600px) {
-            #intro {
-                display: block;
-                /* align-content: center; */
-            }
-
-            #knowmemore {
-                display: block;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 
-<body background="">
+<body>
+
+    <header>&#128421;Alisha's Portfolio </header>
+    <div onclick="openNav()" id="openButton">&#9776;</div>
+    <div id="navigation">
+        <a href="javascript:void(0);" class="closeButton" onclick="closeNav()">&times;</a>
+        <a href="index.html">About</a>
+        <a href="index.html#skills">Skills</a>
+        <a href="index.html#education">Education</a>
+        <a href="index.html#contactMe">Contact</a>
+        <a href="index.html#message">Message</a>
+
+
+    </div>
     <div id="container">
-        <header>Alisha's Portfolio</header>
-        <nav id="navbar">
-            <a href="index.html#about">About</a>
-            <a href="index.html#skills">Skills</a>
-            <a href="index.html#contactMe">Contact</a>
-        </nav>
-        <h1>Hi I'm Alisha</h1>
+
+
+        <h1>Hey It's me Alisha</h1>
+        <h2>I'm a Developer</h2>
         <div id="intro">
             <div id="pic">
                 <img src="/home/qbuser/Assignment/Portfolio/Pictures/AlishaJohnK.JPG" alt="Pic of Alisha">
             </div>
             <div id="about">
                 <h2>About Me</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A autem facilis dolorem et ea, rerum in,
-                    ipsum labore perspiciatis qui, dolorum quaerat id quam aspernatur. Soluta officiis ullam saepe est
-                    nemo nesciunt quas, voluptatem ipsam reprehenderit at labore minus, doloribus eum consequatur quasi
-                    debitis. Exercitationem ipsum impedit obcaecati quasi, possimus distinctio illo quo ab repellat
-                    magnam nostrum expedita quod quos excepturi minima? Est quis corporis minus natus adipisci?
-                    Aspernatur veniam dignissimos deleniti doloribus obcaecati, laborum maxime dolor atque ipsum cumque
-                    omnis aut placeat, sed, molestiae porro rem cum. Nemo, quas? Repellat vitae corrupti quae tempore
-                    unde. Veritatis quae atque officiis?</p>
-            </div>
-            <div id="skills">
-                <h2>Skills</h2>
-                <h4>Technical Skills</h4>
-                <p>HTML <br> CSS <br>JavaScript <br>Python </p>
-                <h4>Soft Skills</h4>
+                <p>Energetic and goal-oriented
+                    personality, looking for a challenging
+                    role as an engineer to deliver
+                    excellence to the Organization as well
+                    as society by putting my skills and
+                    knowledge to the best use and to
+                    expand the realm of my experience
+                    and insights.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quibusdam. Odio, debitis! Perferendis
+                    aliquam aperiam veritatis tempore. Earum autem animi facere corporis necessitatibus consequuntur
+                    expedita modi, culpa voluptatum similique deleniti iusto fuga. Quasi et mollitia, expedita veniam
+                    natus repudiandae architecto consectetur corporis ex voluptatum, quia corrupti! Architecto esse sit
+                    itaque saepe, molestias nisi animi quia dignissimos libero harum voluptates veritatis eos optio illo
+                    eum ipsa aliquam quo necessitatibus laudantium odio. Dolore omnis culpa praesentium nostrum voluptas
+                    ducimus? Tempora asperiores, nulla nemo, minus, incidunt eligendi beatae similique voluptas nobis
+                    saepe nam veniam necessitatibus magnam et dolor facilis sunt recusandae a nesciunt!</p>
             </div>
         </div>
+        <div id="skills">
+            <h2>Skills</h2>
+            <div id="skillsAndInterests">
+
+                <div id="techSkills">
+                    <h4>Technical Skills</h4>
+                    <p> HTML <br> CSS <br>JavaScript <br>Python <br>C++ <br>Arduino</p>
+                </div>
+                <div id="softSkills">
+                    <h4>Soft Skills</h4>
+                    <p> HTML <br> CSS <br>JavaScript <br>Python </p>
+                </div>
+
+
+                <div id="interests">
+                    <h4>Interests</h4>
+                    <div id="interestPics">
+                        <img src="/home/qbuser/Assignment/Portfolio/Pictures/camera-gb667d1d6d_1280.png" alt="Camera">
+                        <img src="/home/qbuser/Assignment/Portfolio/Pictures/mic-g63c10ccf2_1280.png" alt="Mic">
+                        <img src="/home/qbuser/Assignment/Portfolio/Pictures/musical-note-g2f3e0e121_1280.png"
+                            alt="Music">
+                        <img src="/home/qbuser/Assignment/Portfolio/Pictures/guitare-g3a28b2f0c_1280.png" alt="Ukulele">
+                        <img src="/home/qbuser/Assignment/Portfolio/Pictures/icon-g100b50a64_1280.png" alt="TV">
+                        <img src="/home/qbuser/Assignment/Portfolio/Pictures/brush-gb5e8c75f1_1280.png" alt="Brush">
+                        <img src="/home/qbuser/Assignment/Portfolio/Pictures/silhouette-ga534c6da3_1280.png"
+                            alt="Puzzles">
+                    </div>
+                    <div id="interestText">
+                        <p>Music <br> Art and Crafts <br> Poetry <br> Movies <br> Calligraphy <br>Puzzle <br>Ukulele
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         <div id="knowmemore">
 
             <div id="education">
-                <h3>Education</h3>
+                <h2>Education</h2>
                 <div id="educationSections">
+
                     <h4>2022</h4>
                     <p>Btech <br> Electronics and Communication Engineering </p>
 
@@ -203,44 +105,21 @@
                     <p>Secondary School leaving certificate</p>
 
                 </div>
-
-
-
-
             </div>
             <div id="projects">
-                <h3>Projects</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint labore earum doloremque iure
-                    repudiandae. Perspiciatis consequatur quisquam non obcaecati corrupti ipsam velit dicta? Repellendus
-                    impedit, dolorem neque dicta asperiores esse quibusdam temporibus, similique fugit debitis iste
-                    blanditiis odio! Aperiam dolores placeat laudantium nesciunt, eius ut quo iste aliquam harum illo
-                    molestiae maxime sint at! Laborum praesentium necessitatibus accusantium magnam, nobis molestiae
-                    doloribus temporibus ullam beatae atque? Nemo fugiat alias ullam voluptatibus ex consequatur odio
-                    cumque, sed inventore pariatur eius necessitatibus ducimus similique. Iure deleniti labore qui
-                    architecto dolorum, accusamus neque. Non rerum culpa voluptatem exercitationem fuga dicta incidunt
-                    deserunt libero?</p>
-            </div>
-            <div id="interests">
-                <h3>Interests</h3>
-                <div id="interestPics">
-                    <img src="/home/qbuser/Assignment/Portfolio/Pictures/camera-gb667d1d6d_1280.png" alt="Camera">
-                    <img src="/home/qbuser/Assignment/Portfolio/Pictures/mic-g63c10ccf2_1280.png" alt="Mic">
-                    <img src="/home/qbuser/Assignment/Portfolio/Pictures/musical-note-g2f3e0e121_1280.png" alt="Music">
-                    <img src="/home/qbuser/Assignment/Portfolio/Pictures/guitare-g3a28b2f0c_1280.png" alt="Ukulele">
-                    <img src="/home/qbuser/Assignment/Portfolio/Pictures/icon-g100b50a64_1280.png" alt="TV">
-                    <img src="/home/qbuser/Assignment/Portfolio/Pictures/brush-gb5e8c75f1_1280.png" alt="Brush">
-                    <img src="/home/qbuser/Assignment/Portfolio/Pictures/silhouette-ga534c6da3_1280.png" alt="Puzzles">
-                </div>
-                <div id="interestText">
-                    <p>Music <br> Art and Crafts <br> Poetry <br> Movies <br> Calligraphy <br>Puzzle <br>Ukulele </p>
+                <h2>Projects</h2>
+                <p>Hardwareclub iedc Webpage <br> Kerala tourism webpage <br> Navitrolley <br> ventometer <br>Smart
+                    Stick </p>
+                <div id="projectImage">
+                    <img src="/home/qbuser/Assignment/Portfolio/Pictures/Screenshot from 2022-08-11 16-38-20.png"
+                        alt="Webpage iedc">
+                    <img src="/home/qbuser/Assignment/Portfolio/Pictures/IMG-20220811-WA0010.jpg" alt="webpage kdisc">
+
                 </div>
             </div>
         </div>
-
-
-
         <div id="contactMe">
-            <h2>Contact Me</h2>
+            <h2>Contact Details</h2>
             <div id="contact">
                 <div id="address">
                     <img src="/home/qbuser/Assignment/Portfolio/Pictures/location-g761d05385_1280.png" alt="Address">
@@ -249,29 +128,43 @@
                 </div>
                 <div id="mail">
                     <img src=" /home/qbuser/Assignment/Portfolio/Pictures/envelope-gf8b4f24df_1280.png" alt="Mail Id">
-                    <div id="copy">
-                        <p>alisha.j@qburst.com</p>
-                        <!-- <button onclick="myFunction()"><img src=" /home/qbuser/Assignment/Portfolio/Pictures/copy.png"
-                                alt="Copy Mail Id" id="copy"></button> -->
-                    </div>
+                    <p>alisha.j@qburst.com</p>
                 </div>
-                <div id=" phone">
+                <div id="phone">
                     <img src="/home/qbuser/Assignment/Portfolio/Pictures/phone-g832d064bd_1280.png" alt="Phone Number">
                     <p>6238996343</p>
                 </div>
                 <div id="linkedin">
                     <img src="/home/qbuser/Assignment/Portfolio/Pictures/social-gde5cb1110_1920.png" alt="LinkedIn">
+                    <p>Linkedin</p>
                 </div>
             </div>
-        </div>
 
-        <aside id="moveTop">
-            <a href="index.html#container"><img
+        </div>
+        <div id="message">
+            <h4>Contact me</h4>
+            <br>
+            <label for="input">Enter name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+            <br>
+            <br>
+            <label for="input">Enter mail id</label>
+            <input type="text" id="mailid" placeholder=" Enter Mail Id" required>
+            <br>
+            <br>
+            <label for="input">Enter your message</label>
+            <input type="text" name="msg" id="msg" placeholder="Message" class="msg" required>
+            <br>
+            <br>
+            <button id="submit" onclick="submitMessage()">Submit</button>
+        </div>
+        <div id="moveTop">
+            <a href="index.html"><img
                     src="/home/qbuser/Assignment/Portfolio/Pictures/paper-airplane-g0b98da91d_1280.png"
                     alt="Move to top"></a>
-            <a href="index.html#container">Click to Scroll up</a>
+            <a href="index.html">Click to Scroll up</a>
 
-        </aside>
+        </div>
     </div>
 
 
