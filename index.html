@@ -12,8 +12,10 @@
 
 <body>
 
-    <header>&#128421;Alisha's Portfolio </header>
-    <div onclick="openNav()" id="openButton">&#9776;</div>
+    <header>&#128421; Alisha's Portfolio <div onclick="openNav()" id="openButton">&#9776; </div>
+    </header>
+
+
     <div id="section">
         <div id="navigation">
             <a href="javascript:void(0);" class="closeButton" onclick="closeNav()">&times;</a>
@@ -21,26 +23,29 @@
             <a href="index.html#skills">Skills</a>
             <a href="index.html#education">Education</a>
             <a href="index.html#contactMe">Contact</a>
-            <button onclick="connectMe()" id="connect">Message
-                &#9993;</button>
+
         </div>
         <div id="message">
             <a href="index.html" class="closeBtn">&times;</a>
-            <h3>Contact me</h3>
+
             <br>
-            <label for="input">Enter name</label>
-            <input type="text" id="name" placeholder="Enter your name">
-            <br>
-            <br>
-            <label for="input">Enter mail id</label>
-            <input type="text" id="mailid" placeholder=" Enter Mail Id">
-            <br>
-            <br>
-            <label for="input">Enter your message</label>
-            <input type="text" name="msg" id="msg" placeholder="Message" class="msg">
-            <br>
-            <br>
-            <button id="submit" onclick="submitMessage()">Submit</button>
+            <div id="form">
+                <h3>Contact me</h3>
+                <label for="input">Enter name</label>
+                <input type="text" id="name" placeholder="Enter your name">
+                <br>
+                <br>
+                <label for="input">Enter mail id</label>
+                <input type="text" id="mailid" placeholder=" Enter Mail Id">
+                <br>
+                <br>
+                <label for="input">Enter your message</label>
+                <input type="text" name="msg" id="msg" placeholder="Message" class="msg">
+                <br>
+                <br>
+                <button id="submit" onclick="submitMessage()">Submit</button>
+            </div>
+
         </div>
         <div id="container">
 
@@ -63,7 +68,6 @@
                         expand the realm of my experience
                         and insights. Born and brought up in Thrissur. Well known for creativity and willngness to work
                         hard.
-
                     </p>
                 </div>
             </div>
@@ -79,9 +83,6 @@
                         <h4>Soft Skills</h4>
                         <p> Creative <br> Curious <br>Self learner<br></p>
                     </div>
-
-
-
                     <div id="interests">
                         <h4>Interests</h4>
                         <div id="interestPics">
@@ -162,6 +163,8 @@
                 </div>
 
             </div>
+            <button onclick="connectMe()" id="connect">Message
+                &#9993;</button>
 
             <div id="moveTop">
                 <a href="index.html"><img
