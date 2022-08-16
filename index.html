@@ -12,22 +12,39 @@
 
 <body>
 
-    <header>&#128421; Alisha's Portfolio <div onclick="openNav()" id="openButton">&#9776; </div>
-    </header>
-
-
-    <div id="section">
-        <div id="navigation">
-            <a href="javascript:void(0);" class="closeButton" onclick="closeNav()">&times;</a>
-            <a href="index.html">About</a>
-            <a href="index.html#skills">Skills</a>
-            <a href="index.html#education">Education</a>
-            <a href="index.html#contactMe">Contact</a>
-
+    <div class="section">
+        <div class="header">
+            <div id="header">
+                <div id="logo">
+                    <li><a href="#">Alisha's portfolio</a></li>
+                </div>
+                <div id="menu">
+                    <a href="index.html">Home</a>
+                    <a href="index.html#about">About</a>
+                    <a href="index.html#skills">Skills</a>
+                    <a href="index.html#interests">Interests</a>
+                    <a href="index.html#education">Education</a>
+                    <a href="index.html#projects">Project</a>
+                    <a href="index.html#contactMe">Contact</a>
+                </div>
+                <div id="open">
+                    <a href="javascript:void(0)" onclick="openNav()" id="openButton">&#9776; </a>
+                </div>
+            </div>
+            <br>
+            <div id="navBar">
+                <a href="javascript:void(0);" class="closeButton" onclick="closeNav()">&times;</a>
+                <a href="index.html">Home</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#skills">Skills</a>
+                <a href="index.html#interests">Interests</a>
+                <a href="index.html#education">Education</a>
+                <a href="index.html#projects">Project</a>
+                <a href="index.html#contactMe">Contact</a>
+            </div>
         </div>
         <div id="message">
-            <a href="index.html" class="closeBtn">&times;</a>
-
+            <a href="javascript:void(0);" class="closeButton" onclick="closeMsg()">&times;</a>
             <br>
             <div id="form">
                 <h3>Contact me</h3>
@@ -76,12 +93,27 @@
                 <div id="skillsAndInterests">
 
                     <div id="techSkills">
+
                         <h4>Technical Skills</h4>
-                        <p> HTML <br> CSS <br>JavaScript <br>Python <br>C++ <br>Arduino <br>Adobe Sketchbook </p>
+                        <img src="/home/qbuser/Assignment/Portfolio/Pictures/html.png" alt="">
+                        <img src="/home/qbuser/Assignment/Portfolio/Pictures/css-icons.png" alt="">
+                        <img src="/home/qbuser/Assignment/Portfolio/Pictures/js.png" alt="">
+                        <img src="/home/qbuser/Assignment/Portfolio/Pictures/python.png" alt="">
+                        <img src="/home/qbuser/Assignment/Portfolio/Pictures/c++.png" alt="">
+                        <img src="/home/qbuser/Assignment/Portfolio/Pictures/arduino.png" alt="">
+                        <li>HTML</li>
+                        <li>CSS </li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>C++</li>
+                        <li>Arduino</li>
+                        <li>Adobe Sketchbook </li>
                     </div>
                     <div id="softSkills">
                         <h4>Soft Skills</h4>
-                        <p> Creative <br> Curious <br>Self learner<br></p>
+                        <li>Creative</li>
+                        <li>Curious</li>
+                        <li>Self learner</li>
                     </div>
                     <div id="interests">
                         <h4>Interests</h4>
@@ -99,8 +131,13 @@
                                 alt="Puzzles">
                         </div>
                         <div id="interestText">
-                            <p>Music <br> Art and Crafts <br> Poetry <br> Movies <br> Calligraphy <br>Puzzle <br>Ukulele
-                            </p>
+                            <li>Music</li>
+                            <li>Art and Crafts </li>
+                            <li>Calligraphy</li>
+                            <li>Puzzle</li>
+                            <li>Ukulele</li>
+                            <li>Poetry </li>
+                            <li>Movies</li>
                         </div>
                     </div>
                 </div>
@@ -114,7 +151,8 @@
                     <div id="educationSections">
 
                         <h4>2022</h4>
-                        <p>Btech <br> Electronics and Communication Engineering </p>
+                        <p>Bachelor of Technology</p>
+                        <p>Electronics and Communication Engineering </p>
 
                         <h4>2018</h4>
                         <p>Higher Secondary Education</p>
@@ -163,9 +201,8 @@
                 </div>
 
             </div>
-            <button onclick="connectMe()" id="connect">Message
-                &#9993;</button>
 
+            <button onclick="connectMe()" id="connect">Message</button>
             <div id="moveTop">
                 <a href="index.html"><img
                         src="/home/qbuser/Assignment/Portfolio/Pictures/paper-airplane-g0b98da91d_1280.png"
@@ -175,10 +212,10 @@
             </div>
         </div>
     </div>
+    <div class="footer">
+        <footer>&copy;Alisha John K</footer>
+    </div>
 
-
-
-    <footer>&copy;Alisha John K</footer>
 </body>
 
 </html>
