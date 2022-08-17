@@ -23,7 +23,7 @@ html {
     overflow: hidden;
     font-family: fantasy;
     list-style: none;
-    width: 100%;
+    /* width: 100%; */
     font-size: 20px;
 }
 
@@ -43,7 +43,9 @@ html {
     margin: auto;
     overflow: auto;
     transition: margin-left .5s;
-    padding: 16px;
+    padding: 5%;
+
+
 }
 
 p,
@@ -107,8 +109,7 @@ body {
     padding-top: 60px;
 }
 
-#navBar a,
-#connect {
+#navBar a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -117,6 +118,17 @@ body {
     transition: 0.3s;
     margin: auto
 }
+
+#connect {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #49274A;
+    display: block;
+    transition: 0.3s;
+    margin: auto
+}
+
 
 #navBar a:hover {
     color: #f1f1f1;
@@ -145,7 +157,7 @@ body {
 
 #openButton {
     color: #49274A;
-    font-size: 20px;
+    font-size: 30px;
     cursor: pointer;
     position: fixed;
 }
@@ -156,11 +168,11 @@ body {
 }
 
 
-.section {
+/* .section {
     padding-left: 5%;
     padding-right: 5%;
 
-}
+} */
 
 #intro {
     display: grid;
@@ -195,12 +207,13 @@ body {
     margin-right: auto;
 }
 
-#projectImage {
-    display: grid;
-    grid-template-columns: 50%50%;
+#projects {
+    list-style-type: none;
+    /* display: grid;
+    grid-template-columns: 35% 35% */
 }
 
-#projectImage img {
+#projects img {
     height: 165px;
 }
 
