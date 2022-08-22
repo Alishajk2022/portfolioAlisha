@@ -5,6 +5,7 @@ function openNav() {
 function closeNav() {
     document.getElementById("navBar").style.width = "0";
 }
+
 function closeMsg() {
     document.getElementById("message").style.width = "0";
 }
@@ -25,7 +26,6 @@ function submitMessage() {
         alert("Please add message to continue");
         return false;
     }
-
     document.getElementById("name").value = "";
     document.getElementById("mailid").value = "";
     document.getElementById("msg").value = "";
@@ -36,3 +36,13 @@ function connectMe() {
     document.getElementById("message").style.width = '250px';
 
 }
+function closeSideBar() {
+    document.getElementById("menu").style.opacity = 0;
+
+
+}
+function openSideBar() {
+    document.getElementById('menu').style.opacity = 100;
+
+}
+

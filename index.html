@@ -21,7 +21,7 @@
                     <li><a href="#">Alisha's portfolio</a></li>
                 </div>
                 <div id="menu">
-                    <a href="index.html">Home</a>
+                    <a href="#">Home</a>
                     <a href="index.html#about">About</a>
                     <a href="index.html#skills">Skills</a>
                     <a href="index.html#interests">Interests</a>
@@ -29,41 +29,37 @@
                     <a href="index.html#projects">Project</a>
                     <a href="index.html#contactMe">Contact</a>
                 </div>
-                <div id="open">
-                    <a href="javascript:void(0)" onclick="openNav()" id="openButton">&#9776; </a>
-                </div>
             </div>
-            <br>
-            <div id="navBar">
-                <a href="javascript:void(0);" class="closeButton" onclick="closeNav()">&times;</a>
-                <a href="index.html">Home</a>
-                <a href="index.html#about">About</a>
-                <a href="index.html#skills">Skills</a>
-                <a href="index.html#interests">Interests</a>
-                <a href="index.html#education">Education</a>
-                <a href="index.html#projects">Project</a>
-                <a href="index.html#contactMe">Contact</a>
+
+            <div id="open">
+                <a href="javascript:void(0)" onclick="openNav()" id="openButton">&#9776; </a>
             </div>
         </div>
+        <br>
+        <div id="navBar">
+            <a href="javascript:void(0);" class="closeButton" onclick="closeNav()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#skills">Skills</a>
+            <a href="index.html#interests">Interests</a>
+            <a href="index.html#education">Education</a>
+            <a href="index.html#projects">Project</a>
+            <a href="index.html#contactMe">Contact</a>
+        </div>
         <div id="message">
-            <a href="javascript:void(0);" class="closeButton" onclick="closeMsg()">&times;</a>
-            <br>
-            <div id="form">
+            <a href="javascript:void(0);" class="closeBtn" onclick="closeMsg()">&times;</a>
+            <form action="#" id="form">
                 <h3>Contact me</h3>
                 <label for="input">Enter name</label>
                 <input type="text" id="name" placeholder="Enter your name" required>
-
-
                 <label for="input">Enter mail id</label>
                 <input type="text" id="mailid" placeholder=" Enter Mail Id" required>
-
                 <label for="input">Enter your message</label>
                 <input type="text" name="msg" id="msg" placeholder="Message" class="msg" required>
-
-                <button id="submit" onclick="submitMessage()">Submit</button>
-            </div>
-
+            </form>
+            <button id="submit" onclick="submitMessage()">Submit</button>
         </div>
+
         <div id="container">
 
 
@@ -88,6 +84,7 @@
                     </p>
                 </div>
             </div>
+
             <div id="skills">
                 <h2>Skills</h2>
                 <div id="skillsAndInterests">
@@ -168,10 +165,10 @@
                         <h2>Projects</h2>
                         <li>Hardwareclub IEDC Webpage </li><img
                             src="/home/qbuser/Assignment/Portfolio/Pictures/Screenshot from 2022-08-11 16-38-20.png"
-                            alt="Webpage iedc">
+                            alt="Webpage iedc" id="hardware">
                         <li>Kerala tourism webpage </li> <img
-                            src="/home/qbuser/Assignment/Portfolio/Pictures/IMG-20220811-WA0010.jpg"
-                            alt="webpage kdisc">
+                            src="/home/qbuser/Assignment/Portfolio/Pictures/IMG-20220811-WA0010.jpg" alt="webpage kdisc"
+                            id="kdisc">
                     </div>
                     <!-- 
                     <div id="hardware">
