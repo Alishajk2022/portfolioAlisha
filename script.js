@@ -1,5 +1,6 @@
 function openNav() {
     document.getElementById("navBar").style.width = "250px";
+
 }
 
 function closeNav() {
@@ -45,4 +46,3 @@ function openSideBar() {
     document.getElementById('menu').style.opacity = 100;
 
 }
-
